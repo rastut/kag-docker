@@ -30,4 +30,4 @@ RUN wget http://dl.kag2d.com/kag-linux32-dedicated-release.tar.gz && \
 
 EXPOSE 50301 50301/udp 50328/udp  80 443
 WORKDIR kag-server
-CMD ["./KAGdedi"]
+ENTRYPOINT ["./KAGdedi"]
